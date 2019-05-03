@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/album_art"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/no_album_art" />
+
+    <TextView
+        style="@style/listText"
+        android:id="@+id/album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/album_art"
+        android:text="Album Name"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/album_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_name"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/album_art"
+        android:text="Released: "/>
+
+</RelativeLayout>

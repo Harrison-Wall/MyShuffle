@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyShuffle</string>
+    <string name="tab_songs">Songs</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_artists">Artists</string>
+    <string name="tab_now">Playing</string>
+    <string name="loading">Loading Music</string>
+    <string name="cancel">Cancel</string>
+    <string name="play">Play</string>
+    <string name="play_options">Play Options</string>
+    <string name="shuffle_further">Shuffle Depth: </string>
+</resources>

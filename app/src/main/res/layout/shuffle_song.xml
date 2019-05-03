@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shuffle_song_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/shuffle_song_this_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Play This Song" />
+
+        <RadioButton
+            android:id="@+id/shuffle_song_play_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play All Songs" />
+
+        <RadioButton
+            android:id="@+id/shuffle_song_shuffle_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shuffle All Songs" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shuffle_album_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/shuffle_albums_this_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Play This Album" />
+
+        <RadioButton
+            android:id="@+id/shuffle_albums_all_by_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play All Albums Sorted by Name" />
+
+        <RadioButton
+            android:id="@+id/shuffle_albums_all_by_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play All Albums Sorted by Year" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/shuffle_further" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <CheckBox
+            android:id="@+id/shuffle_album_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Shuffle Songs" />
+
+    </LinearLayout>
+</LinearLayout>
